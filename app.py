@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import pandas as pd
 import numpy as np
 import lightgbm as lgb
-import os
+import os 
 
 # Initialize FastAPI Application with local routing attributes
 app = FastAPI(
